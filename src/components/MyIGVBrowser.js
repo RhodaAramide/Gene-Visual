@@ -1,7 +1,10 @@
+
+
+import React, { useEffect } from 'react'
+
 import igv from "https://cdn.jsdelivr.net/npm/igv@2.15.5/dist/igv.esm.min.js"
 
-import React, { useEffect } from 'react';
-// import igv from 'igv'; // Assuming you have igv imported properly
+
 
 const MyIGVBrowser = () => {
   useEffect(() => {
