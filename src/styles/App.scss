@@ -27,7 +27,7 @@ $primary-color: #18A0FB;
    display: flex;
    padding: 20px 0px;
    gap: 50px;
-
+   
    .logo-div {
       width: 20%;
       display: flex;
@@ -129,3 +129,185 @@ $primary-color: #18A0FB;
       width: 45%;
    }
 }
+
+// ========================== Footer ================================
+footer {   
+   padding: 20px;
+   width: 100vw;
+   position: relative; 
+   left: calc(-1 * (5vw)); 
+   right: calc(-1 * (5vw)); 
+   box-sizing: border-box;    
+   margin-top: 50px;     
+   height: 200px;
+   background-color: #18A0FB;
+   color: #E5F4F2;
+      
+   .section{
+      float: left;
+      width: 33%;
+      height: 100%;     
+      
+      .left-section {
+         margin-right: 100px;
+         margin-left: 50px;
+
+         .logo-div {         
+            display: flex;         
+            align-items: center;
+            font-weight: 700;
+            gap: 10px;
+           
+            h1 {
+               text-transform: uppercase;
+               font-size: 1.5em;
+      
+               span {
+                  color: #E5F4F2;
+               }
+            }
+   
+            .footer-text {                 
+               font-size: x-small;
+            }         
+         }
+      }      
+  }
+ }
+
+ // ========================== SignUp Page ================================
+ .signup-form-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+   .logo-div {      
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      gap: 10px;
+      margin-bottom: 2em;
+
+      h1 {
+         text-transform: uppercase;
+         font-size: 2.5em;
+
+         span {
+            color: #18A0FB;
+         }
+      }
+   }
+
+   .signup-form {
+      background-color: #F8F9FF;
+      padding: 20px;
+      border: 1px solid none;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+
+      h2 {
+         text-align: center;
+         font-weight: 500;
+       }
+       
+      input {
+         width: 100%;
+         padding: 10px;
+         margin: 10px 0;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+       }
+      
+      .register-btn {
+      background: #18A0FB;              
+      color: #E5F4F2;
+      width: 100%;
+      padding: 10px;         
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      .register-btn:hover {
+         background-color: #0056b3;
+         }
+      }
+    }
+ }
+ 
+ 
+ // ========================== Login Page ================================
+ .login-form-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+   .logo-div {      
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      gap: 10px;
+      margin-bottom: 2em;
+         
+      h1 {
+         text-transform: uppercase;
+         font-size: 2.5em;
+
+         span {
+            color: #18A0FB;
+         }
+      }
+   }
+
+   .login-form {
+      background-color: #F8F9FF;
+      padding: 20px;
+      border: 1px solid none;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+
+      h2 {
+         text-align: center;
+         font-weight: 500;
+       }
+
+      input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      }
+
+      .login-btn {         
+         background: #18A0FB;              
+         color: #E5F4F2;
+         width: 100%;
+         padding: 10px;         
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         transition: background-color 0.3s ease;
+
+         .login-btn:hover {
+            background-color: #0056b3;
+          }
+      }
+      span {
+         float: right;
+         text-decoration: underline;
+         color: #0056b3;
+      }
+    }
+ }
+ 
+ 
+ 
