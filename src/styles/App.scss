@@ -136,12 +136,12 @@ footer {
    width: 100vw;
    position: relative; 
    left: calc(-1 * (5vw)); 
-   right: calc(-1 * (5vw)); 
-   box-sizing: border-box;    
+   right: calc(-1 * (5vw));        
    margin-top: 50px;     
    height: 200px;
    background-color: #18A0FB;
    color: #E5F4F2;
+   overflow-x: hidden;
       
    .section{
       float: left;
