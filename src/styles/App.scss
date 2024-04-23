@@ -1,0 +1,131 @@
+/* src/styles.scss */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+$background-color: #FFFFFF;
+$primary-color: #18A0FB;
+
+.igv-logo {
+   display: none !important;
+}
+
+.home {
+   background: #F8F9FF;
+   padding: 0px 5%;
+}
+
+// ========================== Navigation Menu ================================
+.nav-bar {
+   width: 100%;
+   display: flex;
+   padding: 20px 0px;
+   gap: 50px;
+
+   .logo-div {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      gap: 10px;
+
+      h1 {
+         text-transform: uppercase;
+         font-size: 1.5em;
+
+         span {
+            color: #18A0FB;
+         }
+      }
+   }
+
+   .nav-link {
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+      gap: 50px;
+      align-items: center;
+      width: 50%;
+      font-family: 700;
+      text-transform: capitalize;
+   }
+
+   .btns {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+
+      .reg-btn {
+         background: #E5F4F2;
+         color: #18A0FB;
+         padding: 10px;
+         width: 45%;
+         display: flex;
+         justify-content: center;
+         border-radius: 20px;
+      }
+
+      .login-btn {
+         background: #18A0FB;
+         padding: 10px;
+         width: 45%;
+         display: flex;
+         justify-content: center;
+         color: #E5F4F2;
+         border-radius: 20px;
+      }
+   }
+}
+
+
+// ========================== Hero Section ================================
+.hero-section {
+   display: flex;
+   width: 100%;
+   padding-top: 6%;
+   height: 100vh;
+
+   .left-container {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+
+      .hero-text {
+         font-size: 3.5rem;
+         line-height: 1.2em;
+         font-weight: 700;
+
+         span {
+            color: #18A0FB;
+            text-transform: capitalize;
+         }
+      }
+
+      p {
+         font-size: 0.8em;
+         width: 80%;
+      }
+
+      .login-btn {
+         background: #18A0FB;
+         padding: 13px;
+         width: 25%;
+         color: #E5F4F2;
+         border-radius: 20px;
+         font-weight: 600;
+      }
+   }
+
+   .right-container {
+      width: 45%;
+   }
+}
