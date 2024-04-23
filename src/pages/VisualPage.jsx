@@ -13,4 +13,4 @@ const VisualPage = () => {
   )
 }
 
-export default VisualPage
+export default VisualPage;
