@@ -11,12 +11,14 @@
 
 $background-color: #FFFFFF;
 $primary-color: #18A0FB;
+$color: #1C85DB;
+
 
 .igv-logo {
    display: none !important;
 }
 
-.home {
+body {
    background: #F8F9FF;
    padding: 0px 5%;
 }
@@ -40,7 +42,7 @@ $primary-color: #18A0FB;
          font-size: 1.5em;
 
          span {
-            color: #18A0FB;
+            color: #1C85DB;
          }
       }
    }
@@ -65,7 +67,7 @@ $primary-color: #18A0FB;
 
       .reg-btn {
          background: #E5F4F2;
-         color: #18A0FB;
+         color: #1C85DB;
          padding: 10px;
          width: 45%;
          display: flex;
@@ -74,7 +76,7 @@ $primary-color: #18A0FB;
       }
 
       .login-btn {
-         background: #18A0FB;
+         background: #1C85DB;
          padding: 10px;
          width: 45%;
          display: flex;
@@ -105,7 +107,7 @@ $primary-color: #18A0FB;
          font-weight: 700;
 
          span {
-            color: #18A0FB;
+            color: #1C85DB;
             text-transform: capitalize;
          }
       }
@@ -116,7 +118,7 @@ $primary-color: #18A0FB;
       }
 
       .login-btn {
-         background: #18A0FB;
+         background: #1C85DB;
          padding: 13px;
          width: 25%;
          color: #E5F4F2;
@@ -130,6 +132,57 @@ $primary-color: #18A0FB;
    }
 }
 
+// ========================== Explore Section ================================
+.explore-section {
+   background: linear-gradient(180deg, #845DFE 0%, #3190FC 100%);
+   width: 1200px;
+   height: 320px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   margin-top: 20px;
+   padding: 40px;
+   ;
+   .left-section {
+      float: left;
+      width: 60%;
+      margin-left: 20px;
+      h1 {        
+         font-family: Poppins;
+         font-size: 48px;
+         font-weight: 800;
+         line-height: 72px;
+         text-align: left;
+      }
+
+      p {         
+         font-family: Poppins;
+         font-size: 20px;
+         font-weight: 400;
+         line-height: 30px;
+         text-align: left;
+      }
+      .explore-btn { 
+         margin-top: 20px;        
+         top: 262px;
+         left: 69px;
+         padding: 16px 50px 16px 50px;
+         gap: 8px;         
+         opacity: 0px;
+         background: #FFFFFF;        
+         color:  #1C85DB;
+         border-radius: 20px;
+         font-weight: bold;
+         
+      }
+   }
+   .right-section {
+      float: right;
+     
+   }
+}
+
+
+
 // ========================== Footer ================================
 footer {   
    padding: 20px;
@@ -139,7 +192,7 @@ footer {
    right: calc(-1 * (5vw));        
    margin-top: 50px;     
    height: 200px;
-   background-color: #18A0FB;
+   background-color: #1C85DB;
    color: #E5F4F2;
    overflow-x: hidden;
       
@@ -195,7 +248,7 @@ footer {
          font-size: 2.5em;
 
          span {
-            color: #18A0FB;
+            color: #1C85DB;
          }
       }
    }
@@ -223,7 +276,7 @@ footer {
        }
       
       .register-btn {
-      background: #18A0FB;              
+      background: #1C85DB;              
       color: #E5F4F2;
       width: 100%;
       padding: 10px;         
@@ -260,7 +313,7 @@ footer {
          font-size: 2.5em;
 
          span {
-            color: #18A0FB;
+            color: #1C85DB;
          }
       }
    }
@@ -288,7 +341,7 @@ footer {
       }
 
       .login-btn {         
-         background: #18A0FB;              
+         background: #1C85DB;              
          color: #E5F4F2;
          width: 100%;
          padding: 10px;         
