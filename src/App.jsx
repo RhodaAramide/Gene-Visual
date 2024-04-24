@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
@@ -19,7 +19,7 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/explore" element={<VisualPage />} />
-      </Routes>
+      </Routes>      
     </Router>
   );
 }
