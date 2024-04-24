@@ -90,6 +90,13 @@ $color: #1C85DB;
          display: flex;
          justify-content: center;
          border-radius: 20px;
+
+         button{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+         }
       }
 
       .login-btn {
@@ -154,6 +161,10 @@ $color: #1C85DB;
          color: #E5F4F2;
          border-radius: 20px;
          font-weight: 600;
+         display: flex;
+         gap: 10px;
+         justify-content: center;
+         align-items: center;
 
          @media (max-width:500px) {
             width: 50%;
