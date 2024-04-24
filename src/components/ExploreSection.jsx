@@ -1,6 +1,8 @@
 import React from 'react'
 import { exploreImg } from '../assets'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const ExploreSection = () => {
   return (
@@ -12,7 +14,9 @@ const ExploreSection = () => {
           Are you ready to explore and visualise the human genes we have? <br />
           Let's go!</p>        
           <Link className='explore-link' to={"/explore"}>
-            <button className="explore-btn">Explore</button>
+            <button className="explore-btn">
+              Explore <FontAwesomeIcon icon={faArrowRightArrowLeft} />
+            </button>
           </Link>        
       </div>
       <div className='right-section'>

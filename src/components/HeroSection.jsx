@@ -1,6 +1,8 @@
 import React from 'react'
 import { hero } from '../assets';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons'
 
 const HeroSection = () => {
   return (
@@ -13,8 +15,11 @@ const HeroSection = () => {
           Join the global community of researchers, data scientists, and
           innovators as we decode the secrets hidden within our very cells.
         </p>
-        <Link to={"/login"}>
-        <button className="login-btn">Get Started</button>
+        <Link className='login-div' to={"/signup"}>       
+          <button className="login-btn">          
+            <FontAwesomeIcon className="icon" icon={faSquareArrowUpRight}  />
+              Get Started
+          </button>
         </Link>
       </div>
       <div className="right-container">
