@@ -6,7 +6,8 @@ import { faArrowRightArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const ExploreSection = () => {
   return (
-    <div id='explore' className='explore-section'>
+    <div className='explore-container'>
+    <div className='explore-section'>
       <div className='left-section'>
         <h1>Explore Genome Browser </h1>
         <p>This genome browser shows the 3D visualization of human genomes. <br />
@@ -22,7 +23,7 @@ const ExploreSection = () => {
         <img src={exploreImg} alt="" />
       </div>
     </div>
-
+    </div>
   )
 }
 
