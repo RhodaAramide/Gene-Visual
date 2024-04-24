@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ExploreSection = () => {
   return (
+    <div className='explore-container'>
     <div className='explore-section'>
       <div className='left-section'>
         <h1>Explore Genome Browser </h1>
@@ -18,7 +19,7 @@ const ExploreSection = () => {
         <img src={exploreImg} alt="" />
       </div>
     </div>
-
+    </div>
   )
 }
 
